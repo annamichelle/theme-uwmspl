@@ -117,4 +117,27 @@ function emiglio_exhibit_builder_summary_accordion($exhibitPage = null)
     }
     return $html;
 }
+
+function emiglio_exhibit_builder_summary_plain($exhibitPage = null)
+{
+    if (!$exhibitPage) {
+        $exhibitPage = get_current_record('exhibit_page');
+    }
+
+    $children = $exhibitPage->getChildPages();
+    if ($children) {
+        $html = '<div><h4><a href="' . exhibit_builder_exhibit_uri(get_current_record('exhibit'), $exhibitPage) 
+                . '">' . metadata($exhibitPage, 'title') .'</a></h4><ul>';
+        foreach ($children as $child) {
+            $html .= exhibit_builder_page_summary($child);
+            release_object($child);
+        }
+        $html .= '</ul></div>';
+    }
+    else {
+        $html = '<div><h4><a href="' . exhibit_builder_exhibit_uri(get_current_record('exhibit'), $exhibitPage) 
+                . '">' . metadata($exhibitPage, 'title') .'</a></h4></div>';
+    }
+    return $html;
+}
 ?>

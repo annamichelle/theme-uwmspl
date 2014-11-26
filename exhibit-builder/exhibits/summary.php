@@ -17,14 +17,22 @@
 </div>
 
 <?php set_exhibit_pages_for_loop_by_exhibit(); ?>
-<?php if (has_loop_records('exhibit_page')): ?>
+<?php if (has_loop_records('exhibit_page') && get_theme_option('Exhibit Contents') !== 'none'): ?>
 <div class="exhibit-contents">
 	<h3><?php echo __('Contents'); ?></h3>
+	<?php if (get_theme_option('Exhibit Contents') === accordion): ?>
     <div id="accordion">
         <?php foreach (loop('exhibit_page') as $exhibitPage): ?>
         <?php echo emiglio_exhibit_builder_summary_accordion($exhibitPage); ?>
         <?php endforeach; ?>
     </div>
+	<?php else: ?>
+	<div id="contents">
+		<?php foreach (loop('exhibit_page') as $exhibitPage): ?>
+		<?php echo emiglio_exhibit_builder_summary_plain($exhibitPage); ?>
+		<?php endforeach; ?>
+	</div>
+	<?php endif; ?>
 </div>
 <?php endif; ?>
 </div>
