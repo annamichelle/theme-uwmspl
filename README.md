@@ -21,7 +21,7 @@ An Omeka theme for UWM Libraries Special Collections exhibits that offers multip
 
 ###Styles
 - [x] Classic Red
-- [ ] UWM Black
+- [x] UWM Black
 
 ##Credits
 
