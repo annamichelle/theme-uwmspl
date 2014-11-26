@@ -27,7 +27,7 @@
         <?php endforeach; ?>
     </div>
 	<?php else: ?>
-	<div id="contents">
+	<div id="plain">
 		<?php foreach (loop('exhibit_page') as $exhibitPage): ?>
 		<?php echo emiglio_exhibit_builder_summary_plain($exhibitPage); ?>
 		<?php endforeach; ?>

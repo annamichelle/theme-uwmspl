@@ -1232,6 +1232,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     float: left;
     width: 100%;
   }
+  
+  .exhibit-contents #plain div {
+	padding-bottom: 0.8em;
+  }
+  .exhibit-contents #plain h4,
+  .exhibit-contents #plain ul  {
+	margin-bottom: 0;
+  }
+  .exhibit-contents #plain a {
+	text-decoration: none;
+  }
 
   /* @end */
   /* @group ----- Classic Red Styles ----- */ 
