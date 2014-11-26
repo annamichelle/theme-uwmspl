@@ -1235,17 +1235,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   /* @end */
   /* @group ----- Classic Red Styles ----- */ 
+  .red #exhibit-pages a {
+	color: #791616;
+  }
+  .red #exhibit-pages a:visited {
+	color: #915d5d;
+  }
   .red #exhibit-pages ul,
   .red #exhibit-pages ul a {
     background: #791616;
     color: #fff;
   }
-  .red #exhibit-pages ul a:hover {
-    background-color: #915d5d;
+  .red #exhibit-pages ul a:visited {
     color: #fff;
   }
-  .red #exhibit-pages .current > a {
-    background-color: #c99b9b;
+  .red #exhibit-pages ul a:hover,
+  .red #exhibit-pages #child-pages a:hover  {
+    background: #915d5d;
+  }
+  .red #exhibit-pages .current > a,
+  .red #exhibit-pages #child-pages .current > a  {
+    background: #c99b9b;
     color: #791616;
   }
   .red #exhibit-pages #child-pages ul,
@@ -1256,16 +1266,56 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .red #exhibit-pages #grandchild-pages a {
     background: #fff5f5;
   }
-  .red #exhibit-pages #child-pages a:hover {
-    background-color: #915d5d;
-    color: #fff;
-  }
-  .red #exhibit-pages #child-pages .current > a {
-    background-color: #c99b9b;
-    color: #791616;
-  }
   /* @end */
   /* @group ----- UWM Black Styles ----- */
+  .black #content a {
+	color: #4d4d4d;
+  }
+  .black #content a:visited {
+	color: #999999;
+  }
+  .black #content a:hover {
+	color: #000000;
+  }
+  .black .featured {
+	background: #4d4d4d;
+	border-color: #000000;
+  }
+  .black .featured h2 {
+	background: #000000;
+  }
+  .black #search-container button {
+	background: #4d4d4d;
+  }
+  .black #search-container button:hover {
+	background: #999999;
+  }
+  .black #exhibit-pages ul,
+  .black #exhibit-pages ul a {
+    background: #000000;
+    color: #fff;
+  }
+  .black #exhibit-pages ul a:visited {
+    color: #fff;
+  }
+  .black #exhibit-pages ul a:hover,
+  .black #exhibit-pages #child-pages a:hover  {
+    background: #4d4d4d;
+	color: #fff;
+  }
+  .black #exhibit-pages .current > a,
+  .black #exhibit-pages #child-pages .current > a  {
+    background: #7a7a7a;
+    color: #000000;
+  }
+  .black #exhibit-pages #child-pages ul,
+  .black #exhibit-pages #child-pages a {
+    background: #999999;
+    color: #000000;
+  }
+  .black #exhibit-pages #grandchild-pages a {
+    background: #cccccc;
+  }
   /* @end */
 }
 @media screen and (max-width: 844px) {
