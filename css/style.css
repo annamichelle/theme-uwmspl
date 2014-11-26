@@ -67,6 +67,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -- Items
   -- Simple Pages
   -- Exhibits
+  -- Classic Red Styles
+  -- UWM Black Styles
   */
   /* @group ----- Generic HTML elements ----- */
   html {
@@ -1199,7 +1201,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     padding: 0;
     overflow: hidden;
     margin-bottom: 1.5em;
-    background: #791616;
   }
   #exhibit-pages ul ul {
     padding-left: 0.5em;
@@ -1220,38 +1221,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-decoration: none;
     display: block;
     padding: 0.75em;
-    color: #fff;
-    background: #791616;
     border-width: 0 1px 1px 0;
   }
-  #exhibit-pages ul a:hover {
-    background-color: #915d5d;
-    color: #fff;
-  }
-  #exhibit-pages .current > a {
-    background-color: #c99b9b;
-    color: #791616;
-  }
-
-  #exhibit-pages #child-pages ul {
-    background: #f0dada;
-  }
-  #exhibit-pages #child-pages a {
-    background: #f0dada;
-    color: #791616;
-  }
-  #exhibit-pages #grandchild-pages a {
-    background: #fff5f5;
-  }
-  #exhibit-pages #child-pages a:hover {
-    background-color: #915d5d;
-    color: #fff;
-  }
-  #exhibit-pages #child-pages .current > a {
-    background-color: #c99b9b;
-    color: #791616;
-  }
-
   #exhibit-page-navigation {
     border-color: #dddddd;
     border-top-width: 0.07143em;
@@ -1262,6 +1233,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 100%;
   }
 
+  /* @end */
+  /* @group ----- Classic Red Styles ----- */ 
+  .red #exhibit-pages ul,
+  .red #exhibit-pages ul a {
+    background: #791616;
+    color: #fff;
+  }
+  .red #exhibit-pages ul a:hover {
+    background-color: #915d5d;
+    color: #fff;
+  }
+  .red #exhibit-pages .current > a {
+    background-color: #c99b9b;
+    color: #791616;
+  }
+  .red #exhibit-pages #child-pages ul,
+  .red #exhibit-pages #child-pages a {
+    background: #f0dada;
+    color: #791616;
+  }
+  .red #exhibit-pages #grandchild-pages a {
+    background: #fff5f5;
+  }
+  .red #exhibit-pages #child-pages a:hover {
+    background-color: #915d5d;
+    color: #fff;
+  }
+  .red #exhibit-pages #child-pages .current > a {
+    background-color: #c99b9b;
+    color: #791616;
+  }
+  /* @end */
+  /* @group ----- UWM Black Styles ----- */
   /* @end */
 }
 @media screen and (max-width: 844px) {
