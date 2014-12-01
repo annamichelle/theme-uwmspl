@@ -1500,23 +1500,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* @group ----- Warm Blues Styles ----- */
   .warmblues #content a,
   .warmblues #content a:visited {
-    color: #1f174c;
+    color: #3d2e99;
   }
   .warmblues #content a:hover {
     color: #8a0a4f;
   }
   .warmblues .featured {
-    background: #3d2e99;
+    background: #8c7fd4;
     border-color: #1f174c;
     color: #fff;
   }
   .warmblues .featured h2 {
     background: #1f174c;
-    color: #8c7fd4;
+    color: #fff;
   }
   .warmblues #search-container button,
   .warmblues #search-container.with-advanced a.show-advanced {
-    background: #532dcc;
+    background: #3d2e99;
   }
   .warmblues #search-container button:hover {
     background: #8a0a4f;
@@ -1525,12 +1525,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .warmblues #exhibit-pages ul a,
   .warmblues #exhibit-pages ul a:visited {
     background: #1f174c;
-    color: #8c7fd4;
+    color: #fff;
   }
   .warmblues #exhibit-pages ul a:hover,
   .warmblues #exhibit-pages #child-pages a:hover  {
     background: #8a0a4f;
-    color: #1f174c;
+    color: #fff;
   }
   .warmblues #secondary #exhibit-pages .current > a,
   .warmblues #exhibit-pages #child-pages .current > a  {
