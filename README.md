@@ -7,7 +7,6 @@ An Omeka theme for UWM Libraries Special Collections exhibits that offers multip
 
 ###Item Pages
 * Item pages use [Lightbox2](http://lokeshdhakar.com/projects/lightbox2/) to display files
-* Items include a "Appears in Exhibit" section if the item appears in a **public** exhibit
 * Item show pages include a "return to exhibit" link, rather than a previous/next item browse
 
 ###Exhibits
