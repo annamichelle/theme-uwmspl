@@ -1444,6 +1444,56 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /* @end */
+  /* @group ----- Parchment Styles ----- */
+  .parchment #content a,
+  .parchment #content a:visited {
+    color: #403621;
+  }
+  .parchment #content a:hover {
+    color: #e17956;
+  }
+  .parchment .featured {
+    background: #eac478;
+    border-color: #403621;
+    color: #000;
+  }
+  .parchment .featured h2 {
+    background: #403621;
+    color: #ffda85;
+  }
+  .parchment #search-container button,
+  .parchment #search-container.with-advanced a.show-advanced {
+    background: #bfa364;
+  }
+  .parchment #search-container button:hover {
+    background: #e17956;
+  }
+  .parchment #exhibit-pages ul,
+  .parchment #exhibit-pages ul a,
+  .parchment #exhibit-pages ul a:visited {
+    background: #403621;
+    color: #ffda85;
+  }
+  .parchment #exhibit-pages ul a:hover,
+  .parchment #exhibit-pages #child-pages a:hover  {
+    background: #e17956;
+    color: #000;
+  }
+  .parchment #secondary #exhibit-pages .current > a,
+  .parchment #exhibit-pages #child-pages .current > a  {
+    background: #bfa364;
+    color: #000;
+  }
+  .parchment #exhibit-pages #child-pages ul,
+  .parchment #exhibit-pages #child-pages a {
+    background: #eac478;
+    color: #000;
+  }
+  .parchment #exhibit-pages #grandchild-pages a {
+    background: #ffda85;
+  }
+
+  /* @end */
 }
 @media screen and (max-width: 844px) {
   body, #wrap {
