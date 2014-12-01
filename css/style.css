@@ -67,10 +67,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -- Items
   -- Simple Pages
   -- Exhibits
-  -- Classic Red Styles
-  -- UWM Black Styles
-  -- UWM Gold Styles
-  -- UWM Black & Gold Styles
+  -- Styles
+  ----- Classic Red
+  ----- UWM Black
+  ----- UWM Gold
+  ----- UWM Black & Gold
+  ----- Parchment
+  ----- Warm Blues
   */
   /* @group ----- Generic HTML elements ----- */
   html {
@@ -1491,6 +1494,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
   .parchment #exhibit-pages #grandchild-pages a {
     background: #ffe4b1;
+  }
+
+  /* @end */
+  /* @group ----- Warm Blues Styles ----- */
+  .warmblues #content a,
+  .warmblues #content a:visited {
+    color: #1f174c;
+  }
+  .warmblues #content a:hover {
+    color: #8a0a4f;
+  }
+  .warmblues .featured {
+    background: #3d2e99;
+    border-color: #1f174c;
+    color: #fff;
+  }
+  .warmblues .featured h2 {
+    background: #1f174c;
+    color: #8c7fd4;
+  }
+  .warmblues #search-container button,
+  .warmblues #search-container.with-advanced a.show-advanced {
+    background: #532dcc;
+  }
+  .warmblues #search-container button:hover {
+    background: #8a0a4f;
+  }
+  .warmblues #exhibit-pages ul,
+  .warmblues #exhibit-pages ul a,
+  .warmblues #exhibit-pages ul a:visited {
+    background: #1f174c;
+    color: #8c7fd4;
+  }
+  .warmblues #exhibit-pages ul a:hover,
+  .warmblues #exhibit-pages #child-pages a:hover  {
+    background: #8a0a4f;
+    color: #1f174c;
+  }
+  .warmblues #secondary #exhibit-pages .current > a,
+  .warmblues #exhibit-pages #child-pages .current > a  {
+    background: #3d2e99;
+    color: #fff;
+  }
+  .warmblues #exhibit-pages #child-pages ul,
+  .warmblues #exhibit-pages #child-pages a {
+    background: #523dcc;
+    color: #fff;
+  }
+  .warmblues #exhibit-pages #grandchild-pages a {
+    background: #8c7fd4;
+    color: #000;
   }
 
   /* @end */
