@@ -1305,7 +1305,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .black .featured h2 {
 	background: #000000;
   }
-  .black #search-container button {
+  .black #search-container button,
+  .black #search-container.with-advanced a {
 	background: #4d4d4d;
   }
   .black #search-container button:hover {
@@ -1356,7 +1357,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background: #ffbf00;
     color: #000;
   }
-  .gold #search-container button {
+  .gold #search-container button,
+  .gold #search-container.with-advanced a {
     background: #ffbf00;
   }
   .gold #search-container button:hover {
@@ -1407,7 +1409,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background: #000000;
     color: #ffbf00;
   }
-  .uwm #search-container button {
+  .uwm #search-container button,
+  .uwm #search-container.with-advanced a {
     background: #ffbf00;
   }
   .uwm #search-container button:hover {
