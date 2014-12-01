@@ -1545,6 +1545,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
   .warmblues #exhibit-pages #grandchild-pages a {
     background: #8c7fd4;
+    color: #fff;
   }
 
   /* @end */
