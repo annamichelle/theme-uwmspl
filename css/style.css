@@ -69,6 +69,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -- Exhibits
   -- Classic Red Styles
   -- UWM Black Styles
+  -- UWM Gold Styles
+  -- UWM Black & Gold Styles
   */
   /* @group ----- Generic HTML elements ----- */
   html {
@@ -1277,6 +1279,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .red #exhibit-pages #grandchild-pages a {
     background: #fff5f5;
   }
+
   /* @end */
   /* @group ----- UWM Black Styles ----- */
   .black #content a {
@@ -1327,6 +1330,109 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .black #exhibit-pages #grandchild-pages a {
     background: #cccccc;
   }
+
+  /* @end */
+  /* @group ----- UWM Gold Styles ----- */
+  .gold #content a,
+  .gold #content a:visited {
+    color: #ffbf00;
+  }
+  .gold #content a:hover {
+    color: #ffd24c;
+  }
+  .gold .featured {
+    background: #ffd24c;
+    border-color: #ffbf00;
+    color: #000;
+  }
+  .gold .featured h2 {
+    background: #ffbf00;
+    color: #000;
+  }
+  .gold #search-container button {
+    background: #ffbf00;
+  }
+  .gold #search-container button:hover {
+    background: #ffd24c;
+  }
+  .gold #exhibit-pages ul,
+  .gold #exhibit-pages ul a {
+    background: #ffbf00;
+    color: #000;
+  }
+  .gold #exhibit-pages ul a:visited {
+    color: #000;
+  }
+  .gold #exhibit-pages ul a:hover,
+  .gold #exhibit-pages #child-pages a:hover  {
+    background: #ffd24c;
+    color: #000;
+  }
+  .gold #exhibit-pages .current > a,
+  .gold #exhibit-pages #child-pages .current > a  {
+    background: #ffdc73;
+    color: #000;
+  }
+  .gold #exhibit-pages #child-pages ul,
+  .gold #exhibit-pages #child-pages a {
+    background: #ffe599;
+    color: #000;
+  }
+  .gold #exhibit-pages #grandchild-pages a {
+    background: #fff2cc;
+  }
+
+  /* @end */
+  /* @group ----- UWM Black & Gold Styles ----- */
+  .uwm #content a,
+  .uwm #content a:visited {
+    color: #4d4d4d;
+  }
+  .uwm #content a:hover {
+    color: #ffd24c;
+  }
+  .uwm .featured {
+    background: #4d4d4d;
+    border-color: #000000;
+    color: #fff2cc;
+  }
+  .uwm .featured h2 {
+    background: #000000;
+    color: #ffbf00;
+  }
+  .uwm #search-container button {
+    background: #ffbf00;
+  }
+  .uwm #search-container button:hover {
+    background: #ffd24c;
+  }
+  .uwm #exhibit-pages ul,
+  .uwm #exhibit-pages ul a {
+    background: #000000;
+    color: #ffe599;
+  }
+  .uwm #exhibit-pages ul a:visited {
+    color: #ffe599;
+  }
+  .uwm #exhibit-pages ul a:hover,
+  .uwm #exhibit-pages #child-pages a:hover  {
+    background: #ffd24c;
+    color: #000;
+  }
+  .uwm #secondary #exhibit-pages .current > a,
+  .uwm #exhibit-pages #child-pages .current > a  {
+    background: #ffbf00;
+    color: #000;
+  }
+  .uwm #exhibit-pages #child-pages ul,
+  .uwm #exhibit-pages #child-pages a {
+    background: #ffe599;
+    color: #000;
+  }
+  .uwm #exhibit-pages #grandchild-pages a {
+    background: #fff2cc;
+  }
+
   /* @end */
 }
 @media screen and (max-width: 844px) {
