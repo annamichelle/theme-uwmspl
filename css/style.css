@@ -1234,6 +1234,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     float: left;
     width: 100%;
   }
+
+  .exhibit-contents h3 {
+    border-color: #dddddd;
+    border-top-width: 0.07143em;
+    border-top-style: solid;
+    padding-top: 1.3em;
+  }
   
   .exhibit-contents #plain div {
 	padding-bottom: 0.8em;
