@@ -1453,13 +1453,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #e17956;
   }
   .parchment .featured {
-    background: #eac478;
+    background: #bfa364;
     border-color: #403621;
     color: #000;
   }
   .parchment .featured h2 {
     background: #403621;
-    color: #ffda85;
+    color: #ffe4b1;
   }
   .parchment #search-container button,
   .parchment #search-container.with-advanced a.show-advanced {
@@ -1472,12 +1472,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .parchment #exhibit-pages ul a,
   .parchment #exhibit-pages ul a:visited {
     background: #403621;
-    color: #ffda85;
+    color: #ffe4b1;
   }
   .parchment #exhibit-pages ul a:hover,
   .parchment #exhibit-pages #child-pages a:hover  {
     background: #e17956;
-    color: #000;
+    color: #403621;
   }
   .parchment #secondary #exhibit-pages .current > a,
   .parchment #exhibit-pages #child-pages .current > a  {
@@ -1490,7 +1490,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #000;
   }
   .parchment #exhibit-pages #grandchild-pages a {
-    background: #ffda85;
+    background: #ffe4b1;
   }
 
   /* @end */
