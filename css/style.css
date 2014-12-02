@@ -76,6 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   ----- Warm Blues
   ----- Lily Pad
   ----- Lavender
+  ----- Fall Leaves
   */
   /* @group ----- Generic HTML elements ----- */
   html {
@@ -1599,7 +1600,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /* @end */
-  /* @group ----- Lavender Space Styles ----- */
+  /* @group ----- Lavender Styles ----- */
   .lavender #content a,
   .lavender #content a:visited {
     color: #8b789c;
@@ -1647,6 +1648,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
   .lavender #exhibit-pages #grandchild-pages a {
     background: #fdedff;
+    color: #000;
+  }
+
+  /* @end */
+  /* @group ----- Fall Leaves Styles ----- */
+  .fall #content a,
+  .fall #content a:visited {
+    color: #9e2a10;
+  }
+  .fall #content a:hover {
+    color: #879c70;
+  }
+  .fall .featured {
+    background: #f7bc84;
+    border-color: #9e2a10;
+    color: #000;
+  }
+  .fall .featured h2 {
+    background: #9e2a10;
+    color: #fff;
+  }
+  .fall #search-container button,
+  .fall #search-container.with-advanced a.show-advanced {
+    background: #9e2a10;
+  }
+  .fall #search-container button:hover  {
+    background: #879c70;
+    color: #fff;
+  }
+  .fall #exhibit-pages ul,
+  .fall #exhibit-pages ul a,
+  .fall #exhibit-pages ul a:visited {
+    background: #9e2a10;
+    color: #fff;
+  }
+  .fall #exhibit-pages ul a:hover,
+  .fall #exhibit-pages #child-pages a:hover {
+    background: #879c70;
+    color: #fff;
+  }
+  .fall #secondary #exhibit-pages .current > a,
+  .fall #exhibit-pages #child-pages .current > a  {
+    background: #e07402;
+    color: #fff;
+  }
+  .fall #exhibit-pages #child-pages ul,
+  .fall #exhibit-pages #child-pages a {
+    background: #b36f50;
+    color: #fff;
+  }
+  .fall #exhibit-pages #grandchild-pages a {
+    background: #f7bc84;
     color: #000;
   }
 
