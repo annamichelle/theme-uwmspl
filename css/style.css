@@ -75,6 +75,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   ----- Parchment
   ----- Warm Blues
   ----- Lily Pad
+  ----- Lavender
   */
   /* @group ----- Generic HTML elements ----- */
   html {
@@ -1595,6 +1596,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .lilypad #exhibit-pages #grandchild-pages a {
     background: #a0d87b;
     color: #1e4b02;
+  }
+
+  /* @end */
+  /* @group ----- Lavender Space Styles ----- */
+  .lavender #content a,
+  .lavender #content a:visited {
+    color: #8b789c;
+  }
+  .lavender #content a:hover {
+    color: #910057;
+  }
+  .lavender .featured {
+    background: #ffdcf5;
+    border-color: #8b789c;
+    color: #000;
+  }
+  .lavender .featured h2 {
+    background: #8b789c;
+    color: #fdedff;
+  }
+  .lavender #search-container button,
+  .lavender #search-container.with-advanced a.show-advanced {
+    background: #8b789c;
+  }
+  .lavender #search-container button:hover  {
+    background: #910057;
+    color: #fff;
+  }
+  .lavender #exhibit-pages ul,
+  .lavender #exhibit-pages ul a,
+  .lavender #exhibit-pages ul a:visited {
+    background: #8b789c;
+    color: #fff;
+  }
+  .lavender #exhibit-pages ul a:hover,
+  .lavender #exhibit-pages #child-pages a:hover {
+    background: #910057;
+    color: #fff;
+  }
+  .lavender #secondary #exhibit-pages .current > a,
+  .lavender #exhibit-pages #child-pages .current > a  {
+    background: #e8b3e0;
+    color: #000;
+  }
+  .lavender #exhibit-pages #child-pages ul,
+  .lavender #exhibit-pages #child-pages a {
+    background: #dfd8ff;
+    color: #000;
+  }
+  .lavender #exhibit-pages #grandchild-pages a {
+    background: #fdedff;
+    color: #000;
   }
 
   /* @end */
