@@ -77,6 +77,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   ----- Lily Pad
   ----- Lavender
   ----- Fall Leaves
+  ----- Vitamin C
+  ----- Meeting the Queen
   */
   /* @group ----- Generic HTML elements ----- */
   html {
@@ -1752,6 +1754,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
   .vitaminc #exhibit-pages #grandchild-pages a {
     background: #ffe11a;
+    color: #000;
+  }
+
+  /* @end */
+  /* @group ----- Meeting the Queen Styles (color scheme from https://color.adobe.com/Meeting-the-queen-color-theme-679761/) ----- */
+  .queen #content a,
+  .queen #content a:visited {
+    color: #47365a;
+  }
+  .queen #content a:hover {
+    color: #2c094a;
+  }
+  .queen .featured {
+    background: #9e8b92;
+    border-color: #2c094a;
+    color: #fff;
+  }
+  .queen .featured h2 {
+    background: #2c094a;
+    color: #fff;
+  }
+  .queen #search-container button,
+  .queen #search-container.with-advanced a.show-advanced {
+    background: #47365a;
+  }
+  .queen #search-container button:hover  {
+    background: #2c094a;
+    color: #fff;
+  }
+  .queen #exhibit-pages ul,
+  .queen #exhibit-pages ul a,
+  .queen #exhibit-pages ul a:visited {
+    background: #47365a;
+    color: #fff;
+  }
+  .queen #exhibit-pages ul a:hover,
+  .queen #exhibit-pages #child-pages a:hover {
+    background: #2c094a;
+    color: #fff;
+  }
+  .queen #secondary #exhibit-pages .current > a,
+  .queen #exhibit-pages #child-pages .current > a  {
+    background: #9e8b92;
+    color: #fff;
+  }
+  .queen #exhibit-pages #child-pages ul,
+  .queen #exhibit-pages #child-pages a {
+    background: #e6bda4;
+    color: #000;
+  }
+  .queen #exhibit-pages #grandchild-pages a {
+    background: #ffe0da;
     color: #000;
   }
 
