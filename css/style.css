@@ -79,6 +79,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   ----- Fall Leaves
   ----- Vitamin C
   ----- Meeting the Queen
+  ----- Honey Pot
   */
   /* @group ----- Generic HTML elements ----- */
   html {
@@ -1806,6 +1807,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
   .queen #exhibit-pages #grandchild-pages a {
     background: #ffe0da;
+    color: #000;
+  }
+
+  /* @end */
+  /* @group ----- Honey Pot Styles (color scheme from https://color.adobe.com/Honey-Pot-color-theme-1490158/) ----- */
+  .honey #content a,
+  .honey #content a:visited {
+    color: #bd4932;
+  }
+  .honey #content a:hover {
+    color: #db9e36;
+  }
+  .honey .featured {
+    background: #fffad5;
+    border-color: #db9e36;
+    color: #000;
+  }
+  .honey .featured h2 {
+    background: #db9e36;
+    color: #fff;
+  }
+  .honey #search-container button,
+  .honey #search-container.with-advanced a.show-advanced {
+    background: #db9e36;
+  }
+  .honey #search-container button:hover  {
+    background: #bd4932;
+    color: #fff;
+  }
+  .honey #exhibit-pages ul,
+  .honey #exhibit-pages ul a,
+  .honey #exhibit-pages ul a:visited {
+    background: #db9e36;
+    color: #000;
+  }
+  .honey #exhibit-pages ul a:hover,
+  .honey #exhibit-pages #child-pages a:hover {
+    background: #105b63;
+    color: #fff;
+  }
+  .honey #secondary #exhibit-pages .current > a,
+  .honey #exhibit-pages #child-pages .current > a  {
+    background: #bd4932;
+    color: #fff;
+  }
+  .honey #exhibit-pages #child-pages ul,
+  .honey #exhibit-pages #child-pages a {
+    background: #ffd34e;
+    color: #000;
+  }
+  .honey #exhibit-pages #grandchild-pages a {
+    background: #fffad5;
     color: #000;
   }
 
