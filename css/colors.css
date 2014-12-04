@@ -1,0 +1,643 @@
+@media screen {
+  /* 
+  Table of Contents
+  =================
+  -- Classic Red
+  -- UWM Black
+  -- UWM Gold
+  -- UWM Black & Gold
+  -- Parchment
+  -- Warm Blues
+  -- Lily Pad
+  -- Lavender
+  -- Fall Leaves
+  -- Vitamin C
+  -- Meeting the Queen
+  -- Honey Pot
+  */
+
+  /* ----- Classic Red Styles ----- 
+
+    Classic Red is the default style. See style.css
+    
+  */
+
+  /* @group ----- UWM Black Styles ----- */
+  .black #content a {
+	color: #4d4d4d;
+  }
+  .black #content a:visited {
+	color: #999999;
+  }
+  .black #content a:hover {
+	color: #000000;
+  }
+  .black .featured {
+	background: #4d4d4d;
+	border-color: #000000;
+  }
+  .black .featured h2 {
+	background: #000000;
+  }
+  .black #search-container button,
+  .black #search-container.with-advanced a.show-advanced {
+	background: #4d4d4d;
+  }
+  .black #search-container button:hover {
+	background: #999999;
+  }
+  .black #exhibit-pages ul,
+  .black #exhibit-pages ul a {
+    background: #000000;
+    color: #fff;
+  }
+  .black #exhibit-pages ul a:visited {
+    color: #fff;
+  }
+  .black #exhibit-pages ul a:hover,
+  .black #exhibit-pages #child-pages a:hover  {
+    background: #4d4d4d;
+	color: #fff;
+  }
+  .black #exhibit-pages .current > a,
+  .black #exhibit-pages #child-pages .current > a  {
+    background: #7a7a7a;
+    color: #000000;
+  }
+  .black #exhibit-pages #child-pages ul,
+  .black #exhibit-pages #child-pages a {
+    background: #999999;
+    color: #000000;
+  }
+  .black #exhibit-pages #grandchild-pages a {
+    background: #cccccc;
+  }
+
+  /* @end */
+  /* @group ----- UWM Gold Styles ----- */
+  .gold #content a,
+  .gold #content a:visited {
+    color: #ffbf00;
+  }
+  .gold #content a:hover {
+    color: #ffd24c;
+  }
+  .gold .featured {
+    background: #ffd24c;
+    border-color: #ffbf00;
+    color: #000;
+  }
+  .gold .featured h2 {
+    background: #ffbf00;
+    color: #000;
+  }
+  .gold #search-container button,
+  .gold #search-container.with-advanced a.show-advanced {
+    background: #ffbf00;
+  }
+  .gold #search-container button:hover {
+    background: #ffd24c;
+  }
+  .gold #exhibit-pages ul,
+  .gold #exhibit-pages ul a {
+    background: #ffbf00;
+    color: #000;
+  }
+  .gold #exhibit-pages ul a:visited {
+    color: #000;
+  }
+  .gold #exhibit-pages ul a:hover,
+  .gold #exhibit-pages #child-pages a:hover  {
+    background: #ffd24c;
+    color: #000;
+  }
+  .gold #exhibit-pages .current > a,
+  .gold #exhibit-pages #child-pages .current > a  {
+    background: #ffdc73;
+    color: #000;
+  }
+  .gold #exhibit-pages #child-pages ul,
+  .gold #exhibit-pages #child-pages a {
+    background: #ffe599;
+    color: #000;
+  }
+  .gold #exhibit-pages #grandchild-pages a {
+    background: #fff2cc;
+  }
+
+  /* @end */
+  /* @group ----- UWM Black & Gold Styles ----- */
+  .uwm #content a,
+  .uwm #content a:visited {
+    color: #4d4d4d;
+  }
+  .uwm #content a:hover {
+    color: #ffd24c;
+  }
+  .uwm .featured {
+    background: #4d4d4d;
+    border-color: #000000;
+    color: #fff2cc;
+  }
+  .uwm .featured h2 {
+    background: #000000;
+    color: #ffbf00;
+  }
+  .uwm #search-container button,
+  .uwm #search-container.with-advanced a.show-advanced {
+    background: #ffbf00;
+  }
+  .uwm #search-container button:hover {
+    background: #ffd24c;
+  }
+  .uwm #exhibit-pages ul,
+  .uwm #exhibit-pages ul a {
+    background: #000000;
+    color: #ffe599;
+  }
+  .uwm #exhibit-pages ul a:visited {
+    color: #ffe599;
+  }
+  .uwm #exhibit-pages ul a:hover,
+  .uwm #exhibit-pages #child-pages a:hover  {
+    background: #ffd24c;
+    color: #000;
+  }
+  .uwm #secondary #exhibit-pages .current > a,
+  .uwm #exhibit-pages #child-pages .current > a  {
+    background: #ffbf00;
+    color: #000;
+  }
+  .uwm #exhibit-pages #child-pages ul,
+  .uwm #exhibit-pages #child-pages a {
+    background: #ffe599;
+    color: #000;
+  }
+  .uwm #exhibit-pages #grandchild-pages a {
+    background: #fff2cc;
+  }
+
+  /* @end */
+  /* @group ----- Parchment Styles ----- */
+  .parchment #content a,
+  .parchment #content a:visited {
+    color: #403621;
+  }
+  .parchment #content a:hover {
+    color: #e17956;
+  }
+  .parchment .featured {
+    background: #bfa364;
+    border-color: #403621;
+    color: #000;
+  }
+  .parchment .featured h2 {
+    background: #403621;
+    color: #ffe4b1;
+  }
+  .parchment #search-container button,
+  .parchment #search-container.with-advanced a.show-advanced {
+    background: #bfa364;
+  }
+  .parchment #search-container button:hover {
+    background: #e17956;
+  }
+  .parchment #exhibit-pages ul,
+  .parchment #exhibit-pages ul a,
+  .parchment #exhibit-pages ul a:visited {
+    background: #403621;
+    color: #ffe4b1;
+  }
+  .parchment #exhibit-pages ul a:hover,
+  .parchment #exhibit-pages #child-pages a:hover  {
+    background: #e17956;
+    color: #403621;
+  }
+  .parchment #secondary #exhibit-pages .current > a,
+  .parchment #exhibit-pages #child-pages .current > a  {
+    background: #bfa364;
+    color: #000;
+  }
+  .parchment #exhibit-pages #child-pages ul,
+  .parchment #exhibit-pages #child-pages a {
+    background: #eac478;
+    color: #000;
+  }
+  .parchment #exhibit-pages #grandchild-pages a {
+    background: #ffe4b1;
+  }
+
+  /* @end */
+  /* @group ----- Warm Blues Styles ----- */
+  .warmblues #content a,
+  .warmblues #content a:visited {
+    color: #3d2e99;
+  }
+  .warmblues #content a:hover {
+    color: #8a0a4f;
+  }
+  .warmblues .featured {
+    background: #8c7fd4;
+    border-color: #1f174c;
+    color: #fff;
+  }
+  .warmblues .featured h2 {
+    background: #1f174c;
+    color: #fff;
+  }
+  .warmblues #search-container button,
+  .warmblues #search-container.with-advanced a.show-advanced {
+    background: #3d2e99;
+  }
+  .warmblues #search-container button:hover {
+    background: #8a0a4f;
+  }
+  .warmblues #exhibit-pages ul,
+  .warmblues #exhibit-pages ul a,
+  .warmblues #exhibit-pages ul a:visited {
+    background: #1f174c;
+    color: #fff;
+  }
+  .warmblues #exhibit-pages ul a:hover,
+  .warmblues #exhibit-pages #child-pages a:hover  {
+    background: #8a0a4f;
+    color: #fff;
+  }
+  .warmblues #secondary #exhibit-pages .current > a,
+  .warmblues #exhibit-pages #child-pages .current > a  {
+    background: #3d2e99;
+    color: #fff;
+  }
+  .warmblues #exhibit-pages #child-pages ul,
+  .warmblues #exhibit-pages #child-pages a {
+    background: #523dcc;
+    color: #fff;
+  }
+  .warmblues #exhibit-pages #grandchild-pages a {
+    background: #8c7fd4;
+    color: #fff;
+  }
+
+  /* @end */
+  /* @group ----- Lily Pad Styles ----- */
+  .lilypad #content a,
+  .lilypad #content a:visited {
+    color: #1e4b02;
+  }
+  .lilypad #content a:hover {
+    color: #1088c7;
+  }
+  .lilypad .featured {
+    background: #a0d87b;
+    border-color: #1e4b02;
+    color: #1e4b02;
+  }
+  .lilypad .featured h2 {
+    background: #1e4b02;
+    color: #fff;
+  }
+  .lilypad #search-container button,
+  .lilypad #search-container.with-advanced a.show-advanced {
+    background: #1e4b02;
+  }
+  .lilypad #exhibit-pages ul,
+  .lilypad #exhibit-pages ul a,
+  .lilypad #exhibit-pages ul a:visited {
+    background: #1e4b02;
+    color: #fff;
+  }
+  .lilypad #exhibit-pages ul a:hover,
+  .lilypad #exhibit-pages #child-pages a:hover,
+  .lilypad #search-container button:hover  {
+    background: #1088c7;
+    color: #fff;
+  }
+  .lilypad #secondary #exhibit-pages .current > a,
+  .lilypad #exhibit-pages #child-pages .current > a  {
+    background: #388b03;
+    color: #fff;
+  }
+  .lilypad #exhibit-pages #child-pages ul,
+  .lilypad #exhibit-pages #child-pages a {
+    background: #70cb32;
+    color: #1e4b02;
+  }
+  .lilypad #exhibit-pages #grandchild-pages a {
+    background: #a0d87b;
+    color: #1e4b02;
+  }
+
+  /* @end */
+  /* @group ----- Lavender Styles ----- */
+  .lavender #content a,
+  .lavender #content a:visited {
+    color: #8b789c;
+  }
+  .lavender #content a:hover {
+    color: #910057;
+  }
+  .lavender .featured {
+    background: #ffdcf5;
+    border-color: #8b789c;
+    color: #000;
+  }
+  .lavender .featured h2 {
+    background: #8b789c;
+    color: #fdedff;
+  }
+  .lavender #search-container button,
+  .lavender #search-container.with-advanced a.show-advanced {
+    background: #8b789c;
+  }
+  .lavender #search-container button:hover  {
+    background: #910057;
+    color: #fff;
+  }
+  .lavender #exhibit-pages ul,
+  .lavender #exhibit-pages ul a,
+  .lavender #exhibit-pages ul a:visited {
+    background: #8b789c;
+    color: #fff;
+  }
+  .lavender #exhibit-pages ul a:hover,
+  .lavender #exhibit-pages #child-pages a:hover {
+    background: #910057;
+    color: #fff;
+  }
+  .lavender #secondary #exhibit-pages .current > a,
+  .lavender #exhibit-pages #child-pages .current > a  {
+    background: #e8b3e0;
+    color: #000;
+  }
+  .lavender #exhibit-pages #child-pages ul,
+  .lavender #exhibit-pages #child-pages a {
+    background: #dfd8ff;
+    color: #000;
+  }
+  .lavender #exhibit-pages #grandchild-pages a {
+    background: #fdedff;
+    color: #000;
+  }
+
+  /* @end */
+  /* @group ----- Fall Leaves Styles ----- */
+  .fall #content a,
+  .fall #content a:visited {
+    color: #9e2a10;
+  }
+  .fall #content a:hover {
+    color: #879c70;
+  }
+  .fall .featured {
+    background: #f7bc84;
+    border-color: #9e2a10;
+    color: #000;
+  }
+  .fall .featured h2 {
+    background: #9e2a10;
+    color: #fff;
+  }
+  .fall #search-container button,
+  .fall #search-container.with-advanced a.show-advanced {
+    background: #9e2a10;
+  }
+  .fall #search-container button:hover  {
+    background: #879c70;
+    color: #fff;
+  }
+  .fall #exhibit-pages ul,
+  .fall #exhibit-pages ul a,
+  .fall #exhibit-pages ul a:visited {
+    background: #9e2a10;
+    color: #fff;
+  }
+  .fall #exhibit-pages ul a:hover,
+  .fall #exhibit-pages #child-pages a:hover {
+    background: #879c70;
+    color: #fff;
+  }
+  .fall #secondary #exhibit-pages .current > a,
+  .fall #exhibit-pages #child-pages .current > a  {
+    background: #e07402;
+    color: #fff;
+  }
+  .fall #exhibit-pages #child-pages ul,
+  .fall #exhibit-pages #child-pages a {
+    background: #b36f50;
+    color: #fff;
+  }
+  .fall #exhibit-pages #grandchild-pages a {
+    background: #f7bc84;
+    color: #000;
+  }
+
+  /* @end */
+  /* @group ----- Vitamin C Styles (color scheme from https://color.adobe.com/Vitamin-C-color-theme-492199/) ----- */
+  .vitaminc #content a,
+  .vitaminc #content a:visited {
+    color: #1f8a70;
+  }
+  .vitaminc #content a:hover {
+    color: #fd7400;
+  }
+  .vitaminc .featured {
+    background: #1f8a70;
+    border-color: #004358;
+    color: #fff;
+  }
+  .vitaminc .featured h2 {
+    background: #004358;
+    color: #fff;
+  }
+  .vitaminc #search-container button,
+  .vitaminc #search-container.with-advanced a.show-advanced {
+    background: #1f8a70;
+  }
+  .vitaminc #search-container button:hover  {
+    background: #fd7400;
+    color: #fff;
+  }
+  .vitaminc #exhibit-pages ul,
+  .vitaminc #exhibit-pages ul a,
+  .vitaminc #exhibit-pages ul a:visited {
+    background: #1f8a70;
+    color: #fff;
+  }
+  .vitaminc #exhibit-pages ul a:hover,
+  .vitaminc #exhibit-pages #child-pages a:hover {
+    background: #fd7400;
+    color: #fff;
+  }
+  .vitaminc #secondary #exhibit-pages .current > a,
+  .vitaminc #exhibit-pages #child-pages .current > a  {
+    background: #bedb39;
+    color: #000;
+  }
+  .vitaminc #exhibit-pages #child-pages ul,
+  .vitaminc #exhibit-pages #child-pages a {
+    background: #004358;
+    color: #fff;
+  }
+  .vitaminc #exhibit-pages #grandchild-pages a {
+    background: #ffe11a;
+    color: #000;
+  }
+
+  /* @end */
+  /* @group ----- Meeting the Queen Styles (color scheme from https://color.adobe.com/Meeting-the-queen-color-theme-679761/) ----- */
+  .queen #content a,
+  .queen #content a:visited {
+    color: #47365a;
+  }
+  .queen #content a:hover {
+    color: #2c094a;
+  }
+  .queen .featured {
+    background: #9e8b92;
+    border-color: #2c094a;
+    color: #fff;
+  }
+  .queen .featured h2 {
+    background: #2c094a;
+    color: #fff;
+  }
+  .queen #search-container button,
+  .queen #search-container.with-advanced a.show-advanced {
+    background: #47365a;
+  }
+  .queen #search-container button:hover  {
+    background: #2c094a;
+    color: #fff;
+  }
+  .queen #exhibit-pages ul,
+  .queen #exhibit-pages ul a,
+  .queen #exhibit-pages ul a:visited {
+    background: #47365a;
+    color: #fff;
+  }
+  .queen #exhibit-pages ul a:hover,
+  .queen #exhibit-pages #child-pages a:hover {
+    background: #2c094a;
+    color: #fff;
+  }
+  .queen #secondary #exhibit-pages .current > a,
+  .queen #exhibit-pages #child-pages .current > a  {
+    background: #9e8b92;
+    color: #fff;
+  }
+  .queen #exhibit-pages #child-pages ul,
+  .queen #exhibit-pages #child-pages a {
+    background: #e6bda4;
+    color: #000;
+  }
+  .queen #exhibit-pages #grandchild-pages a {
+    background: #ffe0da;
+    color: #000;
+  }
+
+  /* @end */
+  /* @group ----- Honey Pot Styles (color scheme from https://color.adobe.com/Honey-Pot-color-theme-1490158/) ----- */
+  .honey #content a,
+  .honey #content a:visited {
+    color: #bd4932;
+  }
+  .honey #content a:hover {
+    color: #db9e36;
+  }
+  .honey .featured {
+    background: #fffad5;
+    border-color: #db9e36;
+    color: #000;
+  }
+  .honey .featured h2 {
+    background: #db9e36;
+    color: #fff;
+  }
+  .honey #search-container button,
+  .honey #search-container.with-advanced a.show-advanced {
+    background: #db9e36;
+  }
+  .honey #search-container button:hover  {
+    background: #bd4932;
+    color: #fff;
+  }
+  .honey #exhibit-pages ul,
+  .honey #exhibit-pages ul a,
+  .honey #exhibit-pages ul a:visited {
+    background: #db9e36;
+    color: #000;
+  }
+  .honey #exhibit-pages ul a:hover,
+  .honey #exhibit-pages #child-pages a:hover {
+    background: #105b63;
+    color: #fff;
+  }
+  .honey #secondary #exhibit-pages .current > a,
+  .honey #exhibit-pages #child-pages .current > a  {
+    background: #bd4932;
+    color: #fff;
+  }
+  .honey #exhibit-pages #child-pages ul,
+  .honey #exhibit-pages #child-pages a {
+    background: #ffd34e;
+    color: #000;
+  }
+  .honey #exhibit-pages #grandchild-pages a {
+    background: #fffad5;
+    color: #000;
+  }
+
+  /* @end */
+  /* @group ----- Phaedra Styles (color scheme from https://color.adobe.com/Phaedra-color-theme-1764754/) ----- */
+  .phaedra #content a,
+  .phaedra #content a:visited {
+    color: #00a388;
+  }
+  .phaedra #content a:hover {
+    color: #ff6138;
+  }
+  .phaedra .featured {
+    background: #beeb9f;
+    border-color: #00a388;
+    color: #000;
+  }
+  .phaedra .featured h2 {
+    background: #00a388;
+    color: #fff;
+  }
+  .phaedra #search-container button,
+  .phaedra #search-container.with-advanced a.show-advanced {
+    background: #00a388;
+  }
+  .phaedra #search-container button:hover  {
+    background: #ff6138;
+    color: #fff;
+  }
+  .phaedra #exhibit-pages ul,
+  .phaedra #exhibit-pages ul a,
+  .phaedra #exhibit-pages ul a:visited {
+    background: #00a388;
+    color: #fff;
+  }
+  .phaedra #exhibit-pages ul a:hover,
+  .phaedra #exhibit-pages #child-pages a:hover {
+    background: #79bd8f;
+    color: #ffff9d;
+  }
+  .phaedra #secondary #exhibit-pages .current > a,
+  .phaedra #exhibit-pages #child-pages .current > a  {
+    background: #ff6138;
+    color: #fff;
+  }
+  .phaedra #exhibit-pages #child-pages ul,
+  .phaedra #exhibit-pages #child-pages a {
+    background: #beeb9f;
+    color: #000;
+  }
+  .phaedra #exhibit-pages #grandchild-pages a {
+    background: #ffff9d;
+    color: #000;
+  }
+
+  /* @end */
+}

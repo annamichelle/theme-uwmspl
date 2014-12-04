@@ -23,7 +23,7 @@
     <?php
     queue_css_url('//fonts.googleapis.com/css?family=Lato');
     queue_css_url('//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css');
-    queue_css_file(array('iconfonts', 'style'));
+    queue_css_file(array('iconfonts', 'style', 'colors'));
     echo head_css();
 
     echo theme_header_background();
