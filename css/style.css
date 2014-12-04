@@ -1863,6 +1863,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /* @end */
+  /* @group ----- Phaedra Styles (color scheme from https://color.adobe.com/Phaedra-color-theme-1764754/) ----- */
+  .phaedra #content a,
+  .phaedra #content a:visited {
+    color: #00a388;
+  }
+  .phaedra #content a:hover {
+    color: #ff6138;
+  }
+  .phaedra .featured {
+    background: #beeb9f;
+    border-color: #00a388;
+    color: #000;
+  }
+  .phaedra .featured h2 {
+    background: #00a388;
+    color: #fff;
+  }
+  .phaedra #search-container button,
+  .phaedra #search-container.with-advanced a.show-advanced {
+    background: #00a388;
+  }
+  .phaedra #search-container button:hover  {
+    background: #ff6138;
+    color: #fff;
+  }
+  .phaedra #exhibit-pages ul,
+  .phaedra #exhibit-pages ul a,
+  .phaedra #exhibit-pages ul a:visited {
+    background: #00a388;
+    color: #fff;
+  }
+  .phaedra #exhibit-pages ul a:hover,
+  .phaedra #exhibit-pages #child-pages a:hover {
+    background: #79bd8f;
+    color: #ffff9d;
+  }
+  .phaedra #secondary #exhibit-pages .current > a,
+  .phaedra #exhibit-pages #child-pages .current > a  {
+    background: #ff6138;
+    color: #fff;
+  }
+  .phaedra #exhibit-pages #child-pages ul,
+  .phaedra #exhibit-pages #child-pages a {
+    background: #beeb9f;
+    color: #000;
+  }
+  .phaedra #exhibit-pages #grandchild-pages a {
+    background: #ffff9d;
+    color: #000;
+  }
+
+  /* @end */
 }
 @media screen and (max-width: 844px) {
   body, #wrap {
