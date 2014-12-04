@@ -546,7 +546,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   #site-title {
     font-size: 28px;
     line-height: 42px;
-    padding: 0 0 0.75em 0;
+    padding: 0;
   }
 
   #search-container {
