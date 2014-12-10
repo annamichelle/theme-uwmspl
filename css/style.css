@@ -1163,6 +1163,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     overflow: hidden;
   }
 
+  .summary #content > #primary:not(:only-child) > h1:first-child {
+    margin-bottom: 0.25em;
+  }
+
   .summary #content > h1:first-of-type {
     float: left;
     width: 65%;
