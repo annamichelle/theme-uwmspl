@@ -20,7 +20,7 @@
 <?php if (has_loop_records('exhibit_page') && get_theme_option('Exhibit Contents') !== 'none'): ?>
 <div class="exhibit-contents">
 	<h3><?php echo __('Contents'); ?></h3>
-	<?php if (get_theme_option('Exhibit Contents') === accordion): ?>
+	<?php if (get_theme_option('Exhibit Contents') === 'accordion'): ?>
     <div id="accordion">
         <?php foreach (loop('exhibit_page') as $exhibitPage): ?>
         <?php echo emiglio_exhibit_builder_summary_accordion($exhibitPage); ?>
