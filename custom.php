@@ -88,8 +88,8 @@ function emiglio_exhibit_builder_page_summary($exhibitPage = null)
 }
 
 function return_to_exhibit(){
-    $back = htmlspecialchars($_SERVER['HTTP_REFERER']);
-    if ($back) {
+    if (isset($_SERVER['HTTP_REFERER'])) {
+        $back = htmlspecialchars($_SERVER['HTTP_REFERER']);
         $html = '<a href="' . $back . '">&larr; Back to the Exhibit</a>';
     }
     else {

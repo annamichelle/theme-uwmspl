@@ -5,9 +5,11 @@ queue_css_file('lightbox');
 
 <?php echo head(array('title' => metadata($item, array('Dublin Core', 'Title')), 'bodyclass' => 'items show')); ?>
 
-<div class="return-nav">
-    <?php echo return_to_exhibit(); ?>
-</div>
+<?php if(isset($_SERVER['HTTP_REFERER'])): ?>
+    <div class="return-nav">
+        <?php echo return_to_exhibit(); ?>
+    </div>
+<?php endif; ?>
 
 <h1 class="item-title"><?php echo metadata($item, array('Dublin Core', 'Title')); ?></h1>
 
