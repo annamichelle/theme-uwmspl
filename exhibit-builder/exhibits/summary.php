@@ -12,9 +12,11 @@
 </div>
 <?php endif; ?>
 
+<?php if (get_theme_option('Continue Link')): ?>
 <div class="continue-to-exhibit">
     <h2><?php echo cls_exhibit_link_to_first_page(); ?></h2>
 </div>
+<?php endif; ?>
 
 <?php set_exhibit_pages_for_loop_by_exhibit(); ?>
 <?php if (has_loop_records('exhibit_page') && get_theme_option('Exhibit Contents') !== 'none'): ?>
