@@ -14,6 +14,7 @@
   -- Vitamin C
   -- Meeting the Queen
   -- Honey Pot
+  -- Oceans
   */
 
   /* ----- Classic Red Styles ----- 
@@ -637,6 +638,58 @@
   .phaedra #exhibit-pages #grandchild-pages a {
     background: #ffff9d;
     color: #000;
+  }
+
+  /* @end */
+  /* @group ----- Oceans Styles ----- */
+  .oceans #content a,
+  .oceans #content a:visited {
+    color: #2C43AD;
+  }
+  .oceans #content a:hover {
+    color: #41FFCC;
+  }
+  .oceans .featured {
+    background: #87F0E8;
+    border-color: #3B8AE8;
+    color: #000;
+  }
+  .oceans .featured h2 {
+    background: #3B8AE8;
+    color: #fff;
+  }
+  .oceans #search-container button,
+  .oceans #search-container.with-advanced a.show-advanced {
+    background: #2C43AD;
+  }
+  .oceans #search-container button:hover  {
+    background: #41FFCC;
+    color: #fff;
+  }
+  .oceans #exhibit-pages ul,
+  .oceans #exhibit-pages ul a,
+  .oceans #exhibit-pages ul a:visited {
+    background: #2C43AD;
+    color: #fff;
+  }
+  .oceans #exhibit-pages ul a:hover,
+  .oceans #exhibit-pages #child-pages a:hover {
+    background: #41FFCC;
+    color: #000;
+  }
+  .oceans #secondary #exhibit-pages .current > a,
+  .oceans #exhibit-pages #child-pages .current > a  {
+    background: #87F0E8;
+    color: #000;
+  }
+  .oceans #exhibit-pages #child-pages ul,
+  .oceans #exhibit-pages #child-pages a {
+    background: #3B8AE8;
+    color: #fff;
+  }
+  .oceans #exhibit-pages #grandchild-pages a {
+    background: #4DCEFF;
+    color: #fff;
   }
 
   /* @end */
