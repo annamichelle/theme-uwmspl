@@ -11,11 +11,11 @@ An Omeka theme for UWM Libraries Special Collections exhibits that offers multip
 
 ###Exhibits
 * Changes to the exhibit summary page:
-  * After the exhibit description, a "Continue to Exhibit" link takes readers to the first page of the exhibit 
-  * Exhibit credits have replaced the navigation in the secondary (right-hand) sidebar
+  * After the exhibit description, an optional "Continue to Exhibit" link takes readers to the first page of the exhibit 
+  * Exhibit credits have replaced the navigation in the secondary (right-hand) sidebar on the Summary page
   * Using the theme configuration, admin can decide how to show a "Contents" section below the exhibit description. Options include:
     * no table of contents
-    * dynamic accordion table of contents [jQuery accordion](http://jqueryui.com/accordion/)
+    * dynamic accordion table of contents using [jQuery accordion](http://jqueryui.com/accordion/)
     * plain-text table of contents
 * Custom navigation within the exhibit hides extra information, showing only pages relevant to the current one
 
@@ -33,6 +33,7 @@ An Omeka theme for UWM Libraries Special Collections exhibits that offers multip
 - Meeting the Queen
 - Honey Pot
 - Phaedra
+- Oceans
 
 ##Credits
 
